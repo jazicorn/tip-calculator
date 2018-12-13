@@ -1,0 +1,77 @@
+.calculator-container {
+	width: 240px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	font-family: Helvetica;
+}
+
+
+#percent {
+  border: 2px solid;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+#amount {
+  border: 2px solid;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.tip-percent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.25em;
+}
+
+.calculator-input-container {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0.25em;
+	display: flex;
+  flex-direction: column;
+}
+
+.calculator-bill-input-container {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0.25em;
+	display: flex;
+  flex-direction: column;
+}
+
+.calculator-display-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+.calculate-button {
+	border: 2px solid;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	font-size: 1em;
+	background-color: #eee;
+	margin: 0.25em;
+}
+
+.tip-percent > .calculate-button {
+  width: 4em;
+  margin: 0;
+}
+
+.calculator-tip-display-container {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.calculator-total-display-container {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
